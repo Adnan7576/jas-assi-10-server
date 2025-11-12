@@ -150,7 +150,7 @@ async function run() {
         });
 
         // Ping to confirm connection
-        await client.db("admin").command({ ping: 1 });
+        // await client.db("admin").command({ ping: 1 });
         console.log("Pinged MongoDB successfully!");
 
     } catch (e) {
